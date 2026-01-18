@@ -194,6 +194,18 @@ margin-right: 76px;
 .features-item {
     width: calc((100% - 72px) / 4);
 }
+.item-info {
+    width: 264px;
+    height: 224px;
+
+}
+.icon {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+}
 .title-item {
     margin-bottom: 8px;
     font-weight: 500;
