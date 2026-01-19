@@ -195,17 +195,20 @@ margin-right: 76px;
     width: calc((100% - 72px) / 4);
 }
 .item-info {
-    width: 264px;
-    height: 224px;
-
-}
-.icon {
+   width: 264px;
+    height: 112px;
     border: 1px solid #8e8f99;
     border-radius: 4px;
-    width: 264px;
-    height: 112px;
-    background: #f4f4fd;
+    background-color:  #f4f4fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.icon {
+    width: 64px;
+    height: 64px;
+}
+    
 .title-item {
     margin-bottom: 8px;
     font-weight: 500;
