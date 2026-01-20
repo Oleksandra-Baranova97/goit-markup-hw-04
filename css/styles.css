@@ -187,7 +187,6 @@ margin-right: 76px;
 
 .features-list {
     display: flex;
-    align-items: center;
     gap: 24px;
 }
 
@@ -211,12 +210,14 @@ margin-right: 76px;
     
 .title-item {
     margin-bottom: 8px;
+    margin-top: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    
+    display: flex;
+
 }
 .text-item {
     font-weight: 400;
@@ -224,6 +225,8 @@ margin-right: 76px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: inline;
+    width: 264px;
     
     
 }
