@@ -128,7 +128,7 @@ margin-right: 76px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 1440px;
+    max-width: 1440px;
 }
 
 .main-title-hero {
@@ -348,11 +348,10 @@ margin-right: 76px;
 
 .project-item {
     width: calc((100% - 48px) / 3);
-  
-}
-.project-item {
     position: relative;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .portfolio-item-info {
     display: flex;
     flex-direction: column;
@@ -380,7 +379,7 @@ margin-right: 76px;
 }
 .p-text-item {
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
@@ -422,7 +421,7 @@ margin-right: 76px;
     display: flex;
     flex-direction: row;
     align-items: baseline; 
-    padding-top: 100px;
+    padding: 100px 0;
 }
     
 .container-logo {
